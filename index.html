@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <title>Agrinho</title>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.3/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-icons/1.11.3/font/bootstrap-icons.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header class=" p-5">
+
+        <nav class="container d-flex justify-content-between align-items-center" >
+            <img src="img/agrinho_500x1280-2-removebg-preview.png" class="nav-img " loading="lazy">
+            <ul class="nav mt-5">
+                <li class="nav-item"><a class="nav-link" href="#inicio">Início</a></li>
+                <li class="nav-item"><a class="nav-link" href="#galeria">Galeria</a></li>
+                <li class="nav-item"><a class="nav-link" href="#"></a></li>
+            </ul>
+            <div id="acessibilidade" class="menu-acessibilidade"> 
+                <button id="botao-acessibilidade" class="btn btn-primary fw-bold rotacao-botao" aria-expanded="false">acessibilidade</button>
+                <div id="opcoes-acessibilidade" class="opcoes-acessibilidade apresenta-lista">
+                    <button id="aumentar-fonte" class="btn btn-primary fw-bold" aria-label="Aumentar o tamanho da fonte">A+</button>
+                    <button id="diminuir-fonte" class="btn btn-primary fw-bold" aria-label="diminuir o tamanho da fonte">A-</button>
+                    <button id="alterna-contraste" class="btn btn-primary fw-bold" aria-label="Alterna o contraste de cores"> <i class="bi bi-shadows"></i></button>         
+                </div>
+            </div>
+        </nav>
+       
+    </header>
+
+
+    <main class="container my-5">
+
+        <section id="inicio" class="my-5">
+            <div class="inicio-fundo d-flex justify-content-between align-items-center">
+                <div class="esquerda-conteudo">
+                    <h1 class="display-4 text-white fst-italic fw-bold">Boas-vindas a</h1>
+                    <img src="img/agrinho_500x1280-2-removebg-preview.png" class="mb-3" width="563"
+                        height="278" loading="lazy">
+                    <a href="#tropicalia"
+                        class="btn btn-primary btn-lg botao-inicio fw-semibold">Quero
+                        conhecer!</a>
+                </div>
+                <img src="" alt="" title="Os mutantes - CC0 Domínio Público / Acervo Arquivo Nacional" class="img-fluid img-inicio">
+
+              </div>
+        </section>
+
+        <section id="tropicalia" class="my-5 pt-6 secao-tropicalia" tabindex="0" aria-label="Seção explicativa sobre a tropicália">
+            <div class="container d-flex align-items-center ">
+                <div class="col-4 d-flex justify-content-center ">
+                    <img src="img/campo3.jpg" class="rounded-pill" width="273" height="331" loading="lazy">
+                </div>
+                <div class="col-5">
+                    <h2>Tema Agrinho 2025</h2>
+                    <p class="p-2">Festejar a conexão entre o campo e a cidade é celebrar a relação de interdependência que sustenta a nossa sociedade. O campo, com seus produtos agrícolas, é fundamental para a alimentação e o sustento das cidades, enquanto a cidade, com seus avanços tecnológicos e infraestrutura, impulsiona o desenvolvimento do setor rural. Reconhecer esta simbiose é essencial para promover um futuro mais sustentável e próspero para todos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="galeria" tabindex="0" aria-label="Seção de galeria de imagens">
+            <h2 class="text-center pt-5">Galeria Agrinho</h2>
+            <div class="container p-3 mt-3 fundo-galeria ">
+
+                <div class="row justify-content-md-center">
+                    <div class="col-md-4">
+                        <img src="img/campo.jpeg"
+                            class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/agro.jpeg" class="img-fluid rounded-5"
+                            loading="lazy">
+                    </div>
+                </div>
+                <div class="row mt-4  justify-content-md-center">
+                    <div class="col-md-4">
+                        <img src="img/gado.jpeg" class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                    <div class="col-md-4">
+                        <img src="img/beneficios-da-biotecnologia-na-agricultura.jpeg"
+                            class="img-fluid rounded-5" loading="lazy">
+                    </div>
+                </div>
+             </div>
+        </section>
+
+        <section id="contato">
+            <div class="container p-5 d-flex justify-content-center">
+                <div class="col-md-8 col-lg-10 rounded-5 formulario"> <!->
+                    <h2 class="mb-3"></h2>
+                    <form>
+                        <div class="form-group mb-3">
+                            <label for="nome"></label>
+                            <input type="text" id="nome" name="nome" class="form-control rounded-3 mt-1"
+                                placeholder="">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="email"></label>
+                            <input type="email" id="email" name="email" class="form-control rounded-3 mt-1"
+                                placeholder="">
+                        </div>
+                        <div class="form-group mb-3">
+                            <label for="mensagem"></label>
+                            <textarea id="mensagem" name="mensagem" class="form-control rounded-4 mt-2" rows="4"
+                                placeholder=""></textarea>
+                        </div>
+                        <div class="d-grid gap-2">
+                            <button type="submit" class="btn btn-primary btn-lg rounded-pill"></button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer class="text-center p-3 fst-italic">
+        <p>:</p>
+        <i class=""></i>
+        <i class=""></i>
+        <i class=""></i>
+        <p class="mt-3"></p>
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/scrollReveal.js/4.0.9/scrollreveal.js"></script>
+    <script src="script.js"></script>
+  
+</body>
+
+</html>
